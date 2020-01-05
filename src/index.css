@@ -1,13 +1,45 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color: cornsilk;
+  width: 31%;
+  margin: auto;
+  text-align: center;
+}
+.Display {
+  margin-bottom: 35px;
+  font-size: 50px;
+  color: cornsilk;
+}
+.App {
+  background-color: darkred;
+  border: 2px;
+  border-color: cornsilk;
+  border-radius: 15px;
+}
+h1, h2, h3 {
+  color: cornsilk;
+  font-size: 36px;
+  background-color: lightslategray;
+  height: 45px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button{
+  font-size: xx-large;
+  width: 110px;
+  height: 45px;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background: lightslategray;
+  color: cornsilk;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+button:hover{
+  border: 1px solid grey;
+  background: white;
+  color: grey;
+  text-transform: capitalize;
 }
